@@ -6,8 +6,9 @@ django in a virtual environment
 # Requirements
 
 1) Python
+
 2) Python virtualenv
-    - ![virtualenv documentation][venv_doc]
+* ![virtualenv documentation][venv_doc]
 
 # Virtual Environment
 
@@ -24,28 +25,6 @@ $ pip install virtualenv
 
 ```sh
 $ virtualenv .env
-```
-
-directory structure (2 levels)
-```
-.env
-├── bin
-│   ├── activate
-│   ├── activate.csh
-│   ├── activate.fish
-│   ├── activate_this.py
-│   ├── easy_install
-│   ├── easy_install-3.4
-│   ├── pip
-│   ├── pip3
-│   ├── pip3.4
-│   ├── python -> python3.4
-│   ├── python3 -> python3.4
-│   └── python3.4
-├── include
-│   └── python3.4m -> /usr/local/Cellar/python3/3.4.2_1/Frameworks/Python.framework/Versions/3.4/include/python3.4m
-└── lib
-    └── python3.4
 ```
 
 3) Activate the Virtual Environment
@@ -65,7 +44,7 @@ $ source ./.env/bin/activate
 
 ```sh
 vim .
-```?
+```
 
 6) Freeze packages if you have added any
 
